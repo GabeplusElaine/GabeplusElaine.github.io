@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Gabe</title>
+
+
+
+</head>
+
+
+<body>
+
+
+    <h1>Hey Gabe :)</h1>
+
+    <video width="700" style="padding-left: 24%;" autoplay loop>
+        <source src="rick.MOV" type="video/mp4">
+    </video>
+
+    <button>Play</button>
+
+    <script>
+        document.querySelector('button').addEventListener('click', () => {
+            document.querySelector('video').play();
+        });
+    </script>
+
+    <script>
+        function func() {
+            console.log('played');
+        }
+    </script>
+
+    <p onload="func()">hello</p>
+
+    
+</body>
+</html>
